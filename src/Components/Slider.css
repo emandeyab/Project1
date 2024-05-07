@@ -1,0 +1,42 @@
+  .carousel-item {
+    height: 710px; /* Adjust height as needed */
+  }
+  
+  .carousel-inner img {
+    max-height: 100%; 
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+    color: white; 
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .carousel-control-prev-icon::before,
+  .carousel-control-next-icon::before {
+    color: white; 
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.5) 
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0.5; 
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    opacity: 1;
+  }
+  

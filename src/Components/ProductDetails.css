@@ -1,0 +1,23 @@
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .product-details {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+  }
+  
+  .product-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product-details p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
